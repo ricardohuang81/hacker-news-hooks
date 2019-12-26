@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html, body, #app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.header {
+  margin-bottom: 5px;
+}
+
+.dark {
+  color: #fff;
+  background: #000;
+  min-height: 100%;
+}
+
+.dark a {
+  color: #fff;
+}
+
+.link {
+  font-size: 18px;
+  color: #FF69B4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav li {
+  margin-right: 10px;
+}
+
+.btn-clear {
+  border: none;
+  background: transparent;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.post {
+  margin: 20px 0;
+}
+
+.meta-info-light {
+  margin-top: 5px;
+  color: #00BFFF;
+}
+
+.meta-info-light a {
+  color: #000;
+}
+
+.meta-info-dark {
+  margin-top: 5px;
+  color: #FFFF00;
+}
+
+.meta-info-dark a {
+  color: #00BFFF;
+}
+
+.meta-info-dark span {
+  margin: 10px 0;
+  margin-right: 6px;
+}
+
+.comment {
+  background: #C0C0C0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
