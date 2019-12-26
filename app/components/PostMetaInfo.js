@@ -8,11 +8,11 @@ export default function PostMetaInfo({ by, time, id, descendants }) {
   const theme = React.useContext(ThemeContext)
   return (
     <div className={`meta-info-${theme}`}>
-      <span>by <Link to={`/user?id=${by}`} target='_blank'>{by}</Link></span>
+      <span>by <Link to={`/user?id=${by}`}>{by}</Link></span>
       <span> on {formatDate(time)} </span>
       {typeof descendants === 'number' && (
         <span>
-          with <Link to={`/post?id=${id}`} target='_blank'>{descendants}</Link> comments
+          with <Link to={`/post?id=${id}`}>{descendants}</Link> comments
         </span>
       )}
     </div>
